@@ -1,0 +1,95 @@
+/* Căn chỉnh toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Tiêu đề chính và phụ */
+h1,
+h2 {
+  color: #cc0000;
+  text-align: center;
+}
+
+/* Danh sách món pizza */
+ul {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form đặt hàng */
+form {
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #990000;
+}
+img {
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+border-bottom: 1px solid #ddd;
+padding-bottom: 12px;
+
+.menu-item img {
+  flex-shrink: 0;
+}
+
+.menu-item div {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.menu-item img {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

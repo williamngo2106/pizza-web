@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza 4 Saisons</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pizza 4 Saisons</h1>
+    <p>La saveur de l'Italie au coeur de l'Europe.</p>
+    <h2>Nos Pizza</h2>
+    <ul>
+      <li>
+        <strong>Margherita</strong> - Tomates, mozzarella, basilic frais - 8,90€
+      </li>
+      <li><strong>Reine</strong> - Jambon, champignons, fromage - 10,50€</li>
+      <li>
+        <strong>4 Fromages</strong> - Mozzarella, gorgonzola, chèvre, parmesan
+        -11,90€
+      </li>
+    </ul>
+    <h2>Commander une pizza</h2>
+    <form action="">
+      <label for="nom">Nom :</label><br />
+      <input type="text" id="nom" name="nom" required /><br /><br />
+      <label for="tel">Téléphone :</label><br />
+      <input type="tel" id="tel" name="tel" required /><br /><br />
+      <label for="pizza">Choisissez votre pizza :</label><br />
+      <select name="pizza" id="pizza" required>
+        <option value="Margherita">Margherita</option>
+        <option value="Reine">Reine</option>
+        <option value="4fromage">4fromage</option></select
+      ><br /><br />
+      <button type="submit">Envoyer la commande</button>
+    </form>
+    <ul>
+      <li class="menu-item">
+        <img
+          src="img/i18445-margherite.jpeg"
+          alt="pizza Margherita"
+          width="120"
+        />
+        <strong>Margherita</strong> - Tomates, mozzarella, basilic frais - 8,90€
+      </li>
+      <li class="menu-item">
+        <img
+          src="img/IMG_20210523_120521-scaled.jpg"
+          alt="pizza Reine"
+          width="120"
+        />
+        <strong>Reine</strong> - Jambon, champignons, fromage - 10,50€
+      </li>
+      <li class="menu-item">
+        <img src="img/Pizza-4-Fromages.jpg" alt="Pizza 4 fromage" width="120" />
+        <strong>4 Fromages</strong> - Mozzarella, gorgonzola, chèvre, parmesan -
+        11,90€
+      </li>
+    </ul>
+  </body>
+</html>
